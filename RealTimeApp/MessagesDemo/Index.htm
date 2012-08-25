@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+         <script src="../Scripts/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.signalR-0.5.2.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui-1.8.20.js" type="text/javascript"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+    <script src="MessagesDemos.js" type="text/javascript"></script>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+
+   <div style="margin-top: 20px; margin-left: 20px">
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+          <div style="margin-top: 20px; margin-left: 20px">
+             <input id="msg" type="text" />
+             <button id="btnEnviar" type="button" value="Enviar" class="btn btn-primary">Enviar</button>
+           </div>
+           <div id="mensagens">
+           </div>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+        </div>
+       </div>
+    </div>
+
+    </div>
+</body>
+</html>
